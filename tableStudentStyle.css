@@ -1,0 +1,36 @@
+table {
+  border: 3px solid rgb(113, 147, 197);
+  width: 70%;
+  margin: auto;
+}
+table thead,
+tfoot {
+  background-color: rgb(13, 53, 162);
+  color: white;
+}
+th {
+  padding: 8px;
+  margin: 2px;
+}
+td {
+  padding: 6px;
+  margin: 4px;
+  border: 2px double gray;
+}
+tbody tr:nth-child(odd) {
+  background-color: rgb(209, 201, 201);
+}
+tbody tr:nth-child(2n) {
+  background-color: rgb(244, 128, 184);
+}
+table tr:hover {
+  background-color: rgb(218, 193, 0);
+}
+table tr:hover th {
+  background-color: rgb(218, 193, 0);
+  color: black;
+}
+.tfoot:hover {
+  background-color: rgb(218, 193, 0);
+  color: black;
+}

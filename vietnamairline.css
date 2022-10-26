@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  background-color: rgb(9, 70, 124);
+  color: white;
+}
+.heading a {
+  color: white;
+}
+.body_Container a {
+  color: white;
+}
+
+a:hover {
+  color: rgb(212, 164, 20);
+}
+.head_container {
+  float: right;
+  background-color: rgb(9, 70, 124);
+}
+.form_row {
+  display: flex;
+  font-weight: bold;
+  margin: 6px;
+  justify-content: center;
+}
+.form__input {
+  flex: 1.4;
+}
+.form__label {
+  flex: 0.68;
+}
+#nghenghiep {
+  width: 100%;
+}
+
+/* body */
+.body_Container {
+  display: flex;
+}
+.bodyitem:nth-child(1) {
+  background-color: rgb(22, 82, 134);
+  margin: 0px;
+  padding: 8px;
+  flex: 1;
+}
+.bodyitem:nth-child(2) {
+  margin: 4px;
+  flex: 4.5;
+  background-color: rgb(236, 236, 251);
+}
+
+b {
+  background-color: rgb(117, 148, 161);
+  display: block;
+  padding: 4px;
+  color: rgb(8, 8, 111);
+}
+ul li {
+  list-style: square;
+  color: white;
+  margin: 16px 0;
+}
+ul a {
+  text-decoration-line: none;
+  display: block;
+  line-height: 100%;
+  padding: 4px;
+}
+ul a:hover {
+  background-color: rgb(236, 236, 251);
+}
+.footer {
+  text-align: right;
+  background-color: rgb(214, 209, 209);
+}
+.footer a {
+  display: inline-block;
+  line-height: 100%;
+}
+.footer a:hover {
+  background-color: rgb(8, 8, 60);
+}
+/* responsive */
+@media only screen and (max-width: 900px) {
+  .heading {
+    height: 200px;
+  }
+  .head_container {
+    float: left;
+  }
+}

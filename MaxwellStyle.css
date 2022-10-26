@@ -1,0 +1,63 @@
+.heading {
+  text-align: center;
+}
+h2 {
+  color: rgb(119, 119, 15);
+}
+.introductiontxt {
+  color: rgb(1, 49, 36);
+}
+.listProduct {
+  list-style-image: url(./mediacauHW3/Apple.jpg);
+}
+.listProduct li:nth-child(1),
+.listProduct li:nth-child(6) {
+  color: rgb(119, 119, 15);
+}
+.head_li {
+  color: rgb(142, 7, 32);
+  font-weight: bold;
+}
+.topbody_container {
+  display: flex;
+}
+.topbody_item:nth-child(1) {
+  flex: 3;
+}
+.topbody_item:nth-child(2) {
+  background-color: beige;
+  flex: 1.5;
+}
+.topbody_item:nth-child(2) img {
+  float: right;
+}
+.boldtxt {
+  font-weight: bold;
+}
+.topbody_item h3,
+.topbody_item h2 {
+  color: rgb(147, 129, 28);
+}
+.topbody_item:nth-child(2) {
+  background-color: rgb(251, 211, 138);
+  color: green;
+  border: 1px solid green;
+  padding: 4px;
+  text-align: justify;
+}
+.bot_body {
+  color: rgb(1, 49, 36);
+}
+.bot_body h3 {
+  color: rgb(147, 129, 28);
+}
+.bot_body div {
+  margin-left: 44px;
+  background-color: rgb(198, 193, 193);
+  color: rgb(1, 49, 36);
+  margin: 12px;
+}
+.footer {
+  color: rgb(1, 49, 36);
+  font-style: italic;
+}

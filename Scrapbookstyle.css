@@ -1,0 +1,58 @@
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+}
+hr {
+  margin: 0;
+  border: 1.5px solid darkgoldenrod;
+}
+.heading h1 {
+  font-weight: lighter;
+  padding: 0px;
+  margin: 0px;
+}
+.heading p {
+  line-height: 100%;
+  background-color: orange;
+  color: white;
+  padding: 3px;
+  display: inline-block;
+  margin: 0px;
+}
+.heading {
+  text-align: right;
+}
+.body_container {
+  display: flex;
+}
+.body_item:nth-child(1) {
+  background-image: url(./mediacauHW3/background.jpg);
+  flex: 1;
+  padding: 8px;
+  background-repeat: repeat-y;
+}
+.body_item:nth-child(2) {
+  flex: 2.5;
+}
+
+.body_item:nth-child(1) ul li {
+  list-style: circle;
+  color: red;
+  margin: 12px 0;
+  font-weight: bolder;
+  margin-left: 0px;
+}
+.body_item:nth-child(1) ul a {
+  text-decoration-line: none;
+  display: block;
+  line-height: 100%;
+}
+.body_item:nth-child(1) ul a:hover {
+  margin-left: 6px;
+  color: red;
+}
+.body_item_child_right {
+  float: right;
+  border: 2px solid orange;
+}

@@ -1,0 +1,71 @@
+.heading {
+  background-color: rgb(105, 176, 176);
+  height: 120px;
+  background-image: url(./mediacauHW3/libraryHeading.png);
+  border-bottom: 2px solid green;
+}
+.body_container {
+  display: flex;
+  border-bottom: 2px solid green;
+  padding-bottom: 16px;
+}
+.bodyitem {
+  margin: 4px;
+  padding: 8px;
+}
+.bodyitem:nth-child(1) {
+  flex: 1;
+  border: 1.5px solid rgb(10, 85, 126);
+}
+.bodyitem:nth-child(2) {
+  flex: 2.5;
+}
+.quicklinks {
+  background-color: rgb(38, 134, 38);
+  margin: 4px;
+  color: white;
+  text-align: center;
+}
+a {
+  color: rgb(95, 6, 6);
+  text-align: left;
+  display: block;
+  margin: 4px;
+  padding: 2px;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:nth-child(7) {
+  text-decoration: underline;
+  color: rgb(10, 85, 126);
+}
+.headingContent {
+  color: rgb(10, 85, 126);
+  padding: 0px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+.tableStaff {
+  width: 80%;
+}
+.bodyitem:nth-child(2) th {
+  background-color: rgb(38, 134, 38);
+  color: white;
+}
+.bodyitem:nth-child(2) td {
+  color: rgb(95, 6, 6);
+  border: 1px solid rgb(10, 85, 126);
+  margin: 0px;
+  padding: 6px;
+}
+.footer {
+  text-align: center;
+}
+.blueBold_txt {
+  color: blue;
+  font-weight: bold;
+}
